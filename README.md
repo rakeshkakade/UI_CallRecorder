@@ -1,2 +1,5 @@
 # UI_CallRecorder
-Call Recorder App UI which shown on Web application
+
+How to use?
+- Clone the repo
+- Start with "calls.html"

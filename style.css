@@ -1,0 +1,61 @@
+body {
+	margin-top: 20px;
+}
+
+.menu-buttons {
+  bottom: 0;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+}
+
+/* for calls page */
+.numpad .digit {
+   padding: 20px;
+   border-color: rgba(128,128,128,0.4);
+   border-width: 4px;
+   border-style: ridge;
+   border-radius: 40px;
+   text-align: center;
+}
+
+.numpad .digit:hover {
+  background-color: rgba(128,128,128,0.6);
+  border-color: rgba(128,128,128,1);
+}
+
+/* for calling-page */
+body.calling-page {
+	background-color: rgba(0, 0, 0, 0.82);
+}
+
+.calling-page .menu-buttons .btn:hover {
+	color: rgb(255, 255, 255);
+}
+
+.calling-page .btn-recording.active {
+	color: #b92c28;
+}
+
+.btn-circle {
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 30px;
+  margin-left: 100px;
+  border-color: rgba(128,128,128,1);
+}
+
+/* for history page */
+.details {
+  display: none;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.details.active {
+  display: block;
+}
